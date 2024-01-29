@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;padding: 0;box-sizing: border-box;scroll-behavior: smooth;font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --bg-color: rgb(145, 148, 146); /*test*/
+    --cart-color: #fff;
+    --text-color: #222;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.game {
+    background-color: var(--cart-color);
+    width: 90%;
+    max-width: 600px;
+    margin: 80px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.game h1 {
+    font-weight: 25px;
+    color: #69636b;
+    border-bottom: 1px solid #afadad;
+    margin-bottom: 30px;
+}
+
+.game h2 {
+    font-size: 18px;
+    color: #2e2433;
+    font-weight: 600;
+}
+
+.btn {
+    background: var(--cart-color);
+    color: var(--text-color);
+    width: 100%;
+    border: 1px solid var(--text-color);
+    padding: 10px;
+    transition: all .3s;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--text-color);
+    color: var(--cart-color);
+}
+
+#prox-btn {
+    background-color: #2e2433;
+    color: var(--cart-color);
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .3s;
+    display: none;
+}
+
+#prox-btn:hover {
+    background-color: #483a4e;
+}
