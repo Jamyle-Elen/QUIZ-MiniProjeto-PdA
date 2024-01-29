@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+#quiz{
+    padding-top: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+#respostas{
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+#respostas button{
+    padding: 5px;
+    margin: 5px;
+
+}
