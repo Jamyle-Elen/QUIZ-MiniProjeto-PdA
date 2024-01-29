@@ -11,7 +11,8 @@
 }
 
 body {
-    background-color: var(--bg-color);
+    background-image: url(imagens/bg.png);
+    background-size: contain;
 }
 
 .game {
