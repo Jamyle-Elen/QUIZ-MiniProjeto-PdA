@@ -149,4 +149,29 @@ function checkAnswer(index) {
   });
 }
 
+function resetQuiz() {
+  currentQuestion = 0;
+  shuffleQuestions();
+  showQuestions();
 
+  const respostas = document.querySelectorAll(".btn");
+
+  respostas.forEach((btn) => {
+    btn.classList.remove("correct", "incorrect");
+    btn.disabled = false;
+  });
+
+  document.getElementById("try-again").style.display = "none";
+  document.getElementById("prox-btn").style.display = "none";
+}
+
+function nextQuestion() {
+  const proxBtn = document.getElementById("prox-btn");
+
+  if (proxBtn.style.display === "block") {
+    currentQuestion++;
+    showQuestions();
+  }
+}
+
+startQuiz();
