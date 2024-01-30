@@ -81,3 +81,42 @@ body::before {
 #prox-btn:hover {
     background-color: #483a4e;
 }
+
+
+#quiz-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .question {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .options button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .correct {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .incorrect {
+    background-color: #ff4d4d;
+    color: white;
+  }
+
+  #try-again, #next {
+    display: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
