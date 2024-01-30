@@ -10,11 +10,6 @@
     --text-color: #222;
 }
 
-body {
-    /* background-image: url(imagens/bg.png); */
-    /* background-size: contain; */
-}
-
 body::before {
     content: '';
     position: fixed;
@@ -42,6 +37,7 @@ body::before {
     color: #69636b;
     border-bottom: 1px solid #afadad;
     margin-bottom: 30px;
+    padding-bottom: 25px;
 }
 
 .game h2 {
