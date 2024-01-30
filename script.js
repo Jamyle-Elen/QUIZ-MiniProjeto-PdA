@@ -134,6 +134,7 @@ function showQuestions() {
 
 function checkAnswer(index) {
   const proxBtn = document.getElementById("prox-btn");
+  const tryAgainBtn = document.getElementById("try-again");
   const respostas = document.querySelectorAll(".btn");
 
   if (questions[currentQuestion].answers[index].correct) {
