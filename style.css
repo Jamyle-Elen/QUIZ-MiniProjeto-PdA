@@ -8,6 +8,9 @@
     --bg-color: rgb(145, 148, 146); /*test*/
     --cart-color: #fff;
     --text-color: #222;
+    --error-color: #ff4d4d;
+    --correct-color: #4CAF50;
+    --button-hover: #483a4e;
 }
 
 body::before {
@@ -64,8 +67,8 @@ body::before {
     color: var(--cart-color);
 }
 
-#prox-btn {
-    background-color: #2e2433;
+#prox-btn, #try-again {
+    background-color: var(--button-hover);
     color: var(--cart-color);
     font-weight: 500;
     width: 150px;
@@ -79,12 +82,12 @@ body::before {
 }
 
 #prox-btn:hover {
-    background-color: #483a4e;
+    background-color: var(--button-hover);
 }
 
 
 #quiz-container {
-    background-color: #fff;
+    background-color: var(--cart-color);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -104,19 +107,20 @@ body::before {
   }
 
   .correct {
-    background-color: #4CAF50;
-    color: white;
+    background-color: var(--correct-color);
+    color: var(--cart-color);
   }
 
   .incorrect {
-    background-color: #ff4d4d;
-    color: white;
+    background-color: var(--error-color);
+    color: var(--cart-color);
   }
 
-  #try-again, #next {
+  #try-again {
     display: none;
     padding: 10px;
-    font-size: 16px;
+    font-size: 12px;
     cursor: pointer;
     margin-top: 10px;
+    background-color: var(--error-color);
   }
