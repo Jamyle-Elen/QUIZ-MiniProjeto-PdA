@@ -61,3 +61,10 @@ B) Super Smash Bros
 C) Tekken
 D) Mortal Kombat
 Resposta: C) Tekken
+
+Pergunta: Qual a engine que o jogo fortnite usa?
+A) unity
+B) unreal engine
+C) construct 2
+D) game maker: studio
+Respos: B) unreal engine
