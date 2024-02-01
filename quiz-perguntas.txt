@@ -69,4 +69,16 @@ C) construct 2
 D) game maker: studio
 Respos: B) unreal engine
 
-pergunta
+pergunta: Em que ano fortnite foi lançado?
+A) 2019
+B) 2016
+C) 2017
+D) 2018
+Resposta: C - 2017
+
+Qual a skin mais famosa do Fortnite?
+A) Baby Yoda
+B) Raven
+C) Pantera Negra
+D) Homem de Ferro
+Resposta: B) - Raven
