@@ -182,7 +182,7 @@ function checkAnswer(index) {
 
   if (questions[currentQuestion].answers[index].correct) {
     respostas[index].classList.add("correct");
-    proxBtn.style.display = "block"; // Vai exibir o next se a resposta tiver certa
+    proxBtn.style.display = "block";
   } else {
     respostas[index].classList.add("incorrect");
     tryAgainBtn.style.display = "block";
