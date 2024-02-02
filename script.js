@@ -5,7 +5,7 @@ const questions = [
     answers: [
       { text: "Alpha", correct: false },
       { text: "V1.0", correct: false },
-      { text: "Infinity", correct: false },
+      { text: "Infinity 9.3", correct: false },
       { text: "Beta", correct: true },
     ],
   },
@@ -88,18 +88,16 @@ const questions = [
     ],
   },
   {
-    question:
-     "Qual a engine que o jogo fortnite usa?",
+    question: "Qual a engine que o jogo fortnite usa?",
     answers: [
       { text: "Unity", correct: false },
       { text: "Unreal Engine 5", correct: true },
       { text: "Construct 2", correct: false },
-      { text: "Game Maker: Studio", correct: false }
+      { text: "Game Maker: Studio", correct: false },
     ],
   },
   {
-    question:
-      "Em que ano fortnite foi lançado?",
+    question: "Em que ano fortnite foi lançado?",
     answers: [
       { text: "2019", correct: false },
       { text: "2016", correct: false },
@@ -108,8 +106,7 @@ const questions = [
     ],
   },
   {
-    question:
-      "Qual a skin mais famosa do Fortnite?",
+    question: "Qual a skin mais famosa do Fortnite?",
     answers: [
       { text: "Baby Yoda", correct: false },
       { text: "Raven", correct: true },
@@ -125,28 +122,23 @@ const totalQuestionsToShow = 5;
 function startQuiz() {
   shuffleQuestions();
   showQuestions();
-  playAudio()
+  playAudio();
 }
-
-
 
 function playAudio() {
   var audio = document.getElementById("audioPlayer");
   if (audio) {
     document.addEventListener("click", function playAudioOnInteraction() {
-      audio.play().catch(function(error) {
+      audio.play().catch(function (error) {
         console.error("Reprodução automática bloqueada: ", error);
       });
 
-      document.removeEventListener('click', playAudioOnInteraction);
+      document.removeEventListener("click", playAudioOnInteraction);
     });
   } else {
     console.error("Elemento de áudio não encontrado.");
   }
 }
-
-
-
 
 function shuffleQuestions() {
   for (let i = questions.length - 1; i > 0; i--) {
@@ -225,7 +217,5 @@ function nextQuestion() {
     showQuestions();
   }
 }
-
-
 
 startQuiz();

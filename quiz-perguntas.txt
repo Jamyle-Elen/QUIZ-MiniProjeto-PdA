@@ -3,7 +3,7 @@ League of Legends
 Neste momento, qual é a versão atual do League of Legends? LOL
 A) Alpha
 B) V1.0
-C) Infinity
+C) Infinity 9.03
 D) Beta
 
 Como o Rammus pede desculpas? LOL
@@ -64,22 +64,22 @@ D) Mortal Kombat
 Resposta: C) Tekken
 
 Pergunta: Qual a engine que o jogo fortnite usa?
-A) unity
-B) unreal engine
-C) construct 2
-D) game maker: studio
-Respos: B) unreal engine
+A) Unity
+B) Unreal Engine
+C) Construct 2
+D) Game Maker: Studio
+Respos: B) Unreal Engine
 
 pergunta: Em que ano fortnite foi lançado?
 A) 2019
 B) 2016
 C) 2017
 D) 2018
-Resposta: C - 2017
+Resposta: C) 2017
 
 Qual a skin mais famosa do Fortnite?
 A) Baby Yoda
 B) Raven
 C) Pantera Negra
 D) Homem de Ferro
-Resposta: B) - Raven
+Resposta: B) Raven
