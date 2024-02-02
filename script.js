@@ -91,10 +91,10 @@ const questions = [
     question:
      "Qual a engine que o jogo fortnite usa?",
     answers: [
-      { text: "unity", correct: false },
-      { text: "unreal engine", correct: true },
-      { text: "construct 2", correct: false },
-      { text: "game maker: studio", correct: false }
+      { text: "Unity", correct: false },
+      { text: "Unreal Engine 5", correct: true },
+      { text: "Construct 2", correct: false },
+      { text: "Game Maker: Studio", correct: false }
     ],
   },
   {
@@ -131,7 +131,7 @@ function startQuiz() {
 
 
 function playAudio() {
-  var audio = document.getElementById('audioPlayer');
+  var audio = document.getElementById("audioPlayer");
   if (audio) {
     document.addEventListener('click', function playAudioOnInteraction() {
       audio.play().catch(function(error) {
