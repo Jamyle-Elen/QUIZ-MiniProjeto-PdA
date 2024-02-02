@@ -133,7 +133,7 @@ function startQuiz() {
 function playAudio() {
   var audio = document.getElementById("audioPlayer");
   if (audio) {
-    document.addEventListener('click', function playAudioOnInteraction() {
+    document.addEventListener("click", function playAudioOnInteraction() {
       audio.play().catch(function(error) {
         console.error("Reprodução automática bloqueada: ", error);
       });
