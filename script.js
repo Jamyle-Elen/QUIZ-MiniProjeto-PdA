@@ -125,7 +125,28 @@ const totalQuestionsToShow = 5;
 function startQuiz() {
   shuffleQuestions();
   showQuestions();
+  playAudio()
 }
+
+
+
+function playAudio() {
+  var audio = document.getElementById('audioPlayer');
+  if (audio) {
+    document.addEventListener('click', function playAudioOnInteraction() {
+      audio.play().catch(function(error) {
+        console.error("Reprodução automática bloqueada: ", error);
+      });
+
+      document.removeEventListener('click', playAudioOnInteraction);
+    });
+  } else {
+    console.error("Elemento de áudio não encontrado.");
+  }
+}
+
+
+
 
 function shuffleQuestions() {
   for (let i = questions.length - 1; i > 0; i--) {
@@ -158,7 +179,7 @@ function showQuestions() {
     tryAgainBtn.style.display = "none";
     proxBtn.style.display = "none";
   } else {
-    alert("You Win!");
+    alert("You Win!!!");
   }
 }
 
@@ -204,5 +225,7 @@ function nextQuestion() {
     showQuestions();
   }
 }
+
+
 
 startQuiz();
