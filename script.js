@@ -20,7 +20,7 @@ const questions = [
   },
   {
     question:
-      "VALORANT: Qual arma é conhecida por ter um tiro na cabeça instantâneo, independentemente da armadura do inimigo?",
+      "VALORANT: Qual arma é conhecida por dar mais dano no jogo Valorant?",
     answers: [
       { text: "Phantom", correct: false },
       { text: "Vandal", correct: false },

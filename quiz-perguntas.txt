@@ -14,7 +14,7 @@ C) "OK, OK, OK..."
 D) "Errei, bola pra frente."
 Resposta: C) "ok, ok, ok..."
 
-Pergunta: Qual arma é conhecida por ter um tiro na cabeça instantâneo, independentemente da armadura do inimigo? VAVA
+Pergunta: Qual arma é conhecida por dar mais dano no jogo Valorant?
 A) Phantom
 B) Vandal
 C) Operator
