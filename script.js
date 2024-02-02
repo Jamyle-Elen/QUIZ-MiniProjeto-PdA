@@ -87,6 +87,36 @@ const questions = [
       { text: "Mortal Kombat", correct: false },
     ],
   },
+  {
+    question:
+     "Qual a engine que o jogo fortnite usa?",
+    answers: [
+      { text: "unity", correct: false },
+      { text: "unreal engine", correct: true },
+      { text: "construct 2", correct: false },
+      { text: "game maker: studio", correct: false }
+    ],
+  },
+  {
+    question:
+      "Em que ano fortnite foi lançado?",
+    answers: [
+      { text: "2019", correct: false },
+      { text: "2016", correct: false },
+      { text: "2017", correct: true },
+      { text: "2018", correct: false },
+    ],
+  },
+  {
+    question:
+      "Qual a skin mais famosa do Fortnite?",
+    answers: [
+      { text: "Baby Yoda", correct: false },
+      { text: "Raven", correct: true },
+      { text: "Pantera Negra", correct: false },
+      { text: "Homem de Ferro", correct: false },
+    ],
+  },
 ];
 
 let currentQuestion = 0;

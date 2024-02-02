@@ -12,6 +12,7 @@ A) "Desculpe-me, foi sem querer."
 B) "Sinto muito, estou indo embora."
 C) "OK, OK, OK..."
 D) "Errei, bola pra frente."
+Resposta: C) "ok, ok, ok..."
 
 Pergunta: Qual arma é conhecida por ter um tiro na cabeça instantâneo, independentemente da armadura do inimigo? VAVA
 A) Phantom
