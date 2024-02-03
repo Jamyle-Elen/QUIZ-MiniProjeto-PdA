@@ -147,6 +147,8 @@ function shuffleQuestions() {
   }
 }
 
+let resetBtn = null;
+
 function showQuestions() {
   const perguntaElement = document.getElementById("pergunta");
   const respostasElement = document.querySelector(".respostas");
