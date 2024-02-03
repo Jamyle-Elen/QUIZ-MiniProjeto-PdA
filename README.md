@@ -9,10 +9,10 @@
 <div align='center'>
 <br>
 <em>Versão Desktop 1440px</em><br>
- <img alt="Myle-Js" height="80%" width="80%" src="https://github.com/Jamyle-Elen/QUIZ-MiniProjeto-PdA/assets/110051309/017641bb-07cc-4ed5-bf65-5f3469717668">
+ <img alt="Img Desktop" height="80%" width="80%" src="https://github.com/Jamyle-Elen/QUIZ-MiniProjeto-PdA/assets/110051309/017641bb-07cc-4ed5-bf65-5f3469717668">
  
 <br><em>Versão Mobile 375px</em><br>
- <img alt="Myle-Js" height="30%" width="30%" src="https://github.com/Jamyle-Elen/QUIZ-MiniProjeto-PdA/assets/110051309/3d2c388f-3b5a-4c4e-b647-3341155c41b2">
+ <img alt="Img Desktop" height="30%" width="30%" src="https://github.com/Jamyle-Elen/QUIZ-MiniProjeto-PdA/assets/110051309/3d2c388f-3b5a-4c4e-b647-3341155c41b2">
   
 </div>
 
