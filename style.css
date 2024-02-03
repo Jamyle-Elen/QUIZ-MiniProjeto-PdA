@@ -1,126 +1,132 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 
 * {
-    margin: 0;padding: 0;box-sizing: border-box;scroll-behavior: smooth;font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
 }
 
 :root {
-    --bg-color: rgb(145, 148, 146); /*test*/
-    --cart-color: #fff;
-    --text-color: #222;
-    --error-color: #ff4d4d;
-    --correct-color: #4CAF50;
-    --button-hover: #483a4e;
+  --bg-color: rgb(145, 148, 146);
+  --cart-color: #fff;
+  --text-color: #222;
+  --error-color: #ff4d4d;
+  --correct-color: #4CAF50;
+  --button-hover: #483a4e;
 }
 
 body::before {
-    content: '';
-    position: fixed;
-    top: 0;left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(imagens/bg.png);
-    background-size: 200px;
-    opacity: 0.8;
-    z-index: -1;
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(imagens/bg.png);
+  background-size: 200px;
+  opacity: 0.8;
+  z-index: -1;
 }
 
 .game {
-    background-color: var(--cart-color);
-    width: 90%;
-    max-width: 600px;
-    margin: 80px auto 0;
-    border-radius: 10px;
-    padding: 30px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: var(--cart-color);
+  width: 90%;
+  max-width: 600px;
+  margin: 80px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .game h1 {
-    font-weight: 25px;
-    color: #69636b;
-    border-bottom: 1px solid #afadad;
-    margin-bottom: 30px;
-    padding-bottom: 25px;
+  font-weight: 25px;
+  color: #69636b;
+  border-bottom: 1px solid #afadad;
+  margin-bottom: 30px;
+  padding-bottom: 25px;
 }
 
 .game h2 {
-    font-size: 18px;
-    color: #2e2433;
-    font-weight: 600;
+  font-size: 18px;
+  color: #2e2433;
+  font-weight: 600;
 }
 
 .btn {
-    background: var(--cart-color);
-    color: var(--text-color);
-    width: 100%;
-    border: 1px solid var(--text-color);
-    padding: 10px;
-    transition: all .3s;
-    margin: 10px 0;
-    text-align: left;
-    border-radius: 4px;
-    cursor: pointer;
+  background: var(--cart-color);
+  color: var(--text-color);
+  width: 100%;
+  border: 1px solid var(--text-color);
+  padding: 10px;
+  transition: all .3s;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .btn:hover {
-    background-color: var(--text-color);
-    color: var(--cart-color);
+  background-color: var(--text-color);
+  color: var(--cart-color);
 }
 
-#prox-btn, #try-again {
-    background-color: var(--button-hover);
-    color: var(--cart-color);
-    font-weight: 500;
-    width: 150px;
-    border: 0;
-    padding: 10px;
-    margin: 20px auto 0;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all .3s;
-    display: none;
+#prox-btn,
+#try-again {
+  background-color: var(--button-hover);
+  color: var(--cart-color);
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all .3s;
+  display: none;
 }
 
 #prox-btn:hover {
-    background-color: var(--button-hover);
+  background-color: var(--button-hover);
 }
 
 
 #quiz-container {
-    background-color: var(--cart-color);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
+  background-color: var(--cart-color);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
 
-  .question {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
+.question {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
 
-  .options button {
-    padding: 10px;
-    margin: 5px;
-    font-size: 16px;
-    cursor: pointer;
-  }
+.options button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
 
-  .correct {
-    background-color: var(--correct-color);
-    color: var(--cart-color);
-  }
+.correct {
+  background-color: var(--correct-color);
+  color: var(--cart-color);
+}
 
-  .incorrect {
-    background-color: var(--error-color);
-    color: var(--cart-color);
-  }
+.incorrect {
+  background-color: var(--error-color);
+  color: var(--cart-color);
+}
 
-  #try-again {
-    display: none;
-    padding: 10px;
-    font-size: 12px;
-    cursor: pointer;
-    margin-top: 10px;
-    background-color: var(--error-color);
-  }
+#try-again {
+  display: none;
+  padding: 10px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 10px;
+  background-color: var(--error-color);
+}
