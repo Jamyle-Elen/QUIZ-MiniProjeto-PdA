@@ -24,9 +24,9 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(imagens/bg.png);
-  background-size: 200px;
-  opacity: 0.8;
+  background-image: url(imagens/bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
   z-index: -1;
 }
 
@@ -130,3 +130,28 @@ body::before {
   margin-top: 10px;
   background-color: var(--error-color);
 }
+
+
+.game {
+  position: fixed;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.quiz-animacao {
+  animation: quizAnimacao 0.5s ease-out forwards;
+}
+
+@keyframes quizAnimacao {
+  from {
+    transform: translate(-50%, 100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+
