@@ -122,23 +122,43 @@ const totalQuestionsToShow = 5;
 function startQuiz() {
   shuffleQuestions();
   showQuestions();
-  playAudio();
+  // playAudio();
 }
 
-function playAudio() {
-  var audio = document.getElementById("audioPlayer");
-  if (audio) {
-    document.addEventListener("click", function playAudioOnInteraction() {
-      audio.play().catch(function (error) {
-        console.error("Reprodução automática bloqueada: ", error);
-      });
+function username(name){
+  let tentativas = 0;
+  name = prompt("Digite o seu nome");
+  while(name.length < 3 && tentativas < 3 ){
+    name = prompt("Digite o seu nome");
+    tentativas++
+  }
 
-      document.removeEventListener("click", playAudioOnInteraction);
-    });
+  if (name.length >= 3) {
+    const gameElement = document.querySelector(".quiz");
+    const buttonElement = document.querySelector("#promptName");
+    const h1Element = document.querySelector("h1")
+    gameElement.style.display = "block";
+    buttonElement.style.display = "none";
+    h1Element.style.borderBottom = "1px solid #afadad";
   } else {
-    console.error("Elemento de áudio não encontrado.");
+    alert("Você excedeu o número máximo de tentativas, tente novamente");
   }
 }
+
+// function playAudio() {
+//   var audio = document.getElementById("audioPlayer");
+//   if (audio) {
+//     document.addEventListener("click", function playAudioOnInteraction() {
+//       audio.play().catch(function (error) {
+//         console.error("Reprodução automática bloqueada: ", error);
+//       });
+
+//       document.removeEventListener("click", playAudioOnInteraction);
+//     });
+//   } else {
+//     console.error("Elemento de áudio não encontrado.");
+//   }
+// }
 
 function shuffleQuestions() {
   for (let i = questions.length - 1; i > 0; i--) {

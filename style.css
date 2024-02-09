@@ -43,7 +43,7 @@ body::before {
 .game h1 {
   font-weight: 25px;
   color: #69636b;
-  border-bottom: 1px solid #afadad;
+  /* border-bottom: 1px solid #afadad; */
   margin-bottom: 30px;
   padding-bottom: 25px;
 }
@@ -130,6 +130,11 @@ body::before {
   margin-top: 10px;
   background-color: var(--error-color);
 }
+
+.quiz{
+  display: none;
+}
+
 
 
 .game {
