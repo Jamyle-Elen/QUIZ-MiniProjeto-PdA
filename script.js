@@ -195,7 +195,7 @@ function showQuestions() {
 
     tryAgainBtn.style.display = "none";
     proxBtn.style.display = "none";
-    resetBtn.style.displar = "none;";
+    resetBtn.style.displar = "none;"
   } else {
     tryAgainBtn.style.display = "none";
     proxBtn.style.display = "none";
@@ -207,6 +207,7 @@ function showQuestions() {
 function showWinMessage(playerName) {
   alert(`Parabéns, ${playerName}! Você Venceu!`);
 }
+
 
 function checkAnswer(index) {
   const proxBtn = document.getElementById("prox-btn");
