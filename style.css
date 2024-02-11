@@ -6,6 +6,8 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  list-style: none;
 }
 
 :root {
@@ -75,7 +77,8 @@ body::before {
 
 #prox-btn,
 #try-again,
-#reset-btn {
+#reset-btn,
+#limpar-btn {
   background-color: var(--button-hover);
   color: var(--cart-color);
   font-weight: 500;
@@ -92,6 +95,12 @@ body::before {
 #reset-btn {
   background-color: var(--button-reset);
   font-size: 25px;
+}
+
+#limpar-btn {
+  display: block;
+  width: 100px;
+  font-size: 8px;
 }
 
 #prox-btn:hover {

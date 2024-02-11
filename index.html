@@ -25,20 +25,26 @@
             <button id="try-again" onclick="resetQuiz()">Tente novamente</button>
             <button id="prox-btn" onclick="nextQuestion()">Proxímo</button>
             <button id="reset-btn" onclick="resetQuiz()"><i class='bx bx-undo'></i></button>
-            
-    <div id="myModal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal()">&times;</span>
-            <p>Digite seu nome:</p>
-            <input type="text" id="playerNameInput" />
-            <button onclick="submitName()">Enviar</button>
-        </div>
-    </div>
 
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <p>Digite seu nome:</p>
+                    <input type="text" id="playerNameInput" />
+                    <button onclick="submitName()">Enviar</button>
+                </div>
+            </div>
 
-    <div id="music"> 
-        <audio id="audioPlayer" src="./audio/yjwJIjNuniQ_128 (mp3cut.net).mp3" type="audio/mp3" preload="metadata" autoplay="auto" loop="auto"></audio>    </div>
-    <script src="script.js"></script>
+            <div id="ganhadores-container"></div>
+
+            <!-- Ative o button para limpar o historico de ganhadores -->
+            <!-- <button id="limpar-btn" onclick="limparHistorico()">Limpar Histórico</button> -->
+
+            <div id="music">
+                <audio id="audioPlayer" src="./audio/yjwJIjNuniQ_128 (mp3cut.net).mp3" type="audio/mp3"
+                    preload="metadata" autoplay="auto" loop="auto"></audio>
+            </div>
+            <script src="script.js"></script>
 </body>
 
 </html>

@@ -195,7 +195,7 @@ function showQuestions() {
 
     tryAgainBtn.style.display = "none";
     proxBtn.style.display = "none";
-    resetBtn.style.displar = "none;"
+    resetBtn.style.display = "none;";
   } else {
     tryAgainBtn.style.display = "none";
     proxBtn.style.display = "none";
@@ -204,10 +204,43 @@ function showQuestions() {
   }
 }
 
+const listaDeGanhadores = [];
+
 function showWinMessage(playerName) {
   alert(`Parabéns, ${playerName}! Você Venceu!`);
+  listaDeGanhadores.push(playerName);
+  attListaDeGanhadores();
 }
 
+function attListaDeGanhadores() {
+  const ganhadoresContainer = document.getElementById("ganhadores-container");
+  ganhadoresContainer.innerHTML = "<h5>Lista de Ganhadores</h5>";
+
+  if (listaDeGanhadores.length > 0) {
+    const ul = document.createElement("ul");
+    listaDeGanhadores.forEach((ganhador) => {
+      const li = document.createElement("li");
+      li.textContent = ganhador;
+      ul.appendChild(li);
+    });
+    ganhadoresContainer.appendChild(ul);
+  } else {
+    ganhadoresContainer.innerHTML += "<p>Nenhum vencedor</p>";
+  }
+  localStorage.setItem("listaDeGanhadores", JSON.stringify(listaDeGanhadores));
+}
+
+const historicoDeGanhadores = localStorage.getItem("listaDeGanhadores");
+if (historicoDeGanhadores) {
+  listaDeGanhadores.push(...JSON.parse(historicoDeGanhadores));
+  attListaDeGanhadores();
+}
+
+function limparHistorico() {
+  listaDeGanhadores.length = 0;
+  localStorage.setItem("listaDeGanhadores", JSON.stringify(listaDeGanhadores));
+  attListaDeGanhadores();
+}
 
 function checkAnswer(index) {
   const proxBtn = document.getElementById("prox-btn");
