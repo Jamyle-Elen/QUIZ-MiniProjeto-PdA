@@ -119,6 +119,28 @@ const questions = [
 let currentQuestion = 0;
 const totalQuestionsToShow = 5;
 
+const modal = document.getElementById("myModal");
+const playerNameInput = document.getElementById("playerNameInput");
+
+function openModal() {
+  modal.style.display = "block";
+}
+
+function closeModal() {
+  modal.style.display = "none";
+}
+
+function submitName() {
+  const playerName = playerNameInput.value.trim();
+
+  if (playerName !== "" && playerName.split(" ").length <= 2) {
+    closeModal();
+    showWinMessage(playerName);
+  } else {
+    alert("ERROR: Nome muito extenso, tente com um mais curto.");
+  }
+}
+
 function startQuiz() {
   shuffleQuestions();
   showQuestions();
@@ -154,6 +176,7 @@ function showQuestions() {
   const respostasElement = document.querySelector(".respostas");
   const tryAgainBtn = document.getElementById("try-again");
   const proxBtn = document.getElementById("prox-btn");
+  const resetBtn = document.getElementById("reset-btn");
 
   if (currentQuestion < totalQuestionsToShow) {
     const currentQuizData = questions[currentQuestion];
@@ -172,9 +195,17 @@ function showQuestions() {
 
     tryAgainBtn.style.display = "none";
     proxBtn.style.display = "none";
+    resetBtn.style.displar = "none;";
   } else {
-    alert("You Win!!!");
+    tryAgainBtn.style.display = "none";
+    proxBtn.style.display = "none";
+    resetBtn.style.display = "block";
+    openModal();
   }
+}
+
+function showWinMessage(playerName) {
+  alert(`Parabéns, ${playerName}! Você Venceu!`);
 }
 
 function checkAnswer(index) {
@@ -209,6 +240,7 @@ function resetQuiz() {
 
   document.getElementById("try-again").style.display = "none";
   document.getElementById("prox-btn").style.display = "none";
+  document.getElementById("reset-btn").style.display = "none";
 }
 
 function nextQuestion() {
