@@ -1,32 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon-videogame.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <title>Mini Projeto - M1</title>
 </head>
+
 <body>
     <div class="game quiz-animacao">
         <h1>QUIZ</h1>
         <div class="quiz">
             <h2 id="pergunta">Lorem ipsum dolor sit amet</h2>
-                <div class="respostas">
+            <div class="respostas">
                 <button class="btn">Pergunta 1</button>
                 <button class="btn">Pergunta 2</button>
                 <button class="btn">Pergunta 3</button>
                 <button class="btn">Pergunta 4</button>
-                </div>
-                <button id="try-again" onclick="resetQuiz()">Tente novamente</button>
-                <button id="prox-btn" onclick="nextQuestion()">Proxímo</button>
-                <button id="reset-btn" onclick="resetQuiz()">Reset</button>
-            
+            </div>
+            <button id="try-again" onclick="resetQuiz()">Tente novamente</button>
+            <button id="prox-btn" onclick="nextQuestion()">Proxímo</button>
+            <button id="reset-btn" onclick="resetQuiz()"><i class='bx bx-undo'></i></button>
+
         </div>
     </div>
 
-    <div id="music"> 
-        <audio id="audioPlayer" src="./audio/yjwJIjNuniQ_128 (mp3cut.net).mp3" type="audio/mp3" preload="metadata" autoplay="auto" loop="auto"></audio>    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p>Digite seu nome (até 2 palavras):</p>
+            <input type="text" id="playerNameInput" />
+            <button onclick="submitName()">Enviar</button>
+        </div>
+    </div>
+
+
+    <div id="music">
+        <audio id="audioPlayer" src="./audio/yjwJIjNuniQ_128 (mp3cut.net).mp3" type="audio/mp3" preload="metadata"
+            autoplay="auto" loop="auto"></audio>
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>
