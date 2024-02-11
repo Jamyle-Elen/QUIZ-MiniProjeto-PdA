@@ -12,42 +12,36 @@ A) "Desculpe-me, foi sem querer."
 B) "Sinto muito, estou indo embora."
 C) "OK, OK, OK..."
 D) "Errei, bola pra frente."
-Resposta: C) "ok, ok, ok..."
 
 Pergunta: Qual arma é conhecida por dar mais dano no jogo Valorant?
 A) Phantom
 B) Vandal
 C) Operator
 D) Sheriff
-Resposta: C) Operator
 
 Pergunta: Qual localização foi destruída durante o evento "The End"? FORTNITE
 A) Tilted Towers
 B) Dusty Depot
 C) Retail Row
 D) Loot Lake
-Resposta: B) Dusty Depot
 
 Pergunta: Qual arma é conhecida por ser a "One Shot Kill" na cabeça, independentemente da distância? CS
 A) AK-47
 B) AWP
 C) M4A4
 D) Desert Eagle
-Resposta: B) AWP
 
 Pergunta: Qual agente tem a habilidade de reviver um aliado morto? VAVA
 A) Raze
 B) Cypher
 C) Sage
 D) Reyna
-Resposta: C) Sage
 
 Pergunta: Em Counter-Strike e Valorant, o que significa "eco round"? CS e Valorant
 A) Comprar armas mais poderosas
 B) Economizar dinheiro para rodadas futuras
 C) Utilizar táticas furtivas
 D) Jogar agressivamente
-Resposta: B) Economizar dinheiro para rodadas futuras
 
 Pergunta: Qual destas opções tem prioridade para Riot Games? LOL
 
@@ -61,25 +55,21 @@ A) Street Fighter
 B) Super Smash Bros
 C) Tekken
 D) Mortal Kombat
-Resposta: C) Tekken
 
 Pergunta: Qual a engine que o jogo fortnite usa?
 A) Unity
 B) Unreal Engine
 C) Construct 2
 D) Game Maker: Studio
-Respos: B) Unreal Engine
 
 pergunta: Em que ano fortnite foi lançado?
 A) 2019
 B) 2016
 C) 2017
 D) 2018
-Resposta: C) 2017
 
 Qual a skin mais famosa do Fortnite?
 A) Baby Yoda
 B) Raven
 C) Pantera Negra
 D) Homem de Ferro
-Resposta: B) Raven
