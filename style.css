@@ -15,6 +15,7 @@
   --error-color: #ff4d4d;
   --correct-color: #4CAF50;
   --button-hover: #483a4e;
+  --button-reset: #39363a;
 }
 
 body::before {
@@ -73,7 +74,8 @@ body::before {
 }
 
 #prox-btn,
-#try-again {
+#try-again,
+#reset-btn {
   background-color: var(--button-hover);
   color: var(--cart-color);
   font-weight: 500;
@@ -85,6 +87,11 @@ body::before {
   cursor: pointer;
   transition: all .3s;
   display: none;
+}
+
+#reset-btn {
+  background-color: var(--button-reset);
+  font-size: 25px;
 }
 
 #prox-btn:hover {
@@ -149,9 +156,61 @@ body::before {
     transform: translate(-50%, 100%);
     opacity: 0;
   }
+
   to {
     transform: translate(-50%, -50%);
     opacity: 1;
   }
 }
 
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #888;
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #45a049;
+}
