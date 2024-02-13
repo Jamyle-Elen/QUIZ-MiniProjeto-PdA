@@ -114,6 +114,101 @@ const questions = [
       { text: "Homem de Ferro", correct: false },
     ],
   },
+  {
+    question: "Qual desses campeões não é um yordle?",
+    answers: [
+      { text: "Gnar", correct: false },
+      { text: "Poppy", correct: false },
+      { text: "Urgot", correct: true },
+      { text: "Tristana", correct: false },
+    ],
+  },
+  {
+    question: "Qual é o nome do mapa mais jogado no CS:GO?",
+    answers: [
+      { text: "Dust II", correct: true },
+      { text: "Mirage", correct: false },
+      { text: "Inferno", correct: false },
+      { text: "Overpass", correct: false },
+    ],
+  },
+  {
+    question:
+      "Em qual período histórico se passa o jogo Assassin's Creed: Odyssey?",
+    answers: [
+      { text: "Renascimento Italiano", correct: false },
+      { text: "Idade Média", correct: false },
+      { text: "Grécia Antiga", correct: true },
+      { text: "Revolução Americana", correct: false },
+    ],
+  },
+  {
+    question: "Quem é o protagonista em Assassin's Creed: Black Flag?",
+    answers: [
+      { text: "Ezio Auditore", correct: false },
+      { text: "Altair Ibn-La'Ahad", correct: false },
+      { text: "Edward Kenway", correct: true },
+      { text: "Connor Kenway", correct: false },
+    ],
+  },
+  {
+    question:
+      "Qual é a organização que os Assassinos enfrentam em Assassin's Creed?",
+    answers: [
+      { text: "Templários", correct: true },
+      { text: "Illuminati", correct: false },
+      { text: "Maçons", correct: false },
+      { text: "Cruzados", correct: false },
+    ],
+  },
+  {
+    question:
+      "Qual é a habilidade distintiva de Evie Frye em Assassin's Creed: Syndicate?",
+    answers: [
+      { text: "Visão de Águia", correct: false },
+      { text: "Teletransporte", correct: false },
+      { text: "Camuflagem", correct: true },
+      { text: "Golpe Duplo", correct: false },
+    ],
+  },
+  {
+    question: "Quem é o protagonista em Assassin's Creed III?",
+    answers: [
+      { text: "Ezio Auditore", correct: false },
+      { text: "Edward Kenway", correct: false },
+      { text: "Arno Dorian", correct: false },
+      { text: "Connor Kenway", correct: true },
+    ],
+  },
+  {
+    question:
+      "Em que cidade se passa a maior parte de Assassin's Creed: Revelations?",
+    answers: [
+      { text: "Constantinopla", correct: true },
+      { text: "Atenas", correct: false },
+      { text: "Alexandria", correct: false },
+      { text: "Jerusalém", correct: false },
+    ],
+  },
+  {
+    question:
+      "Qual agente do Valorant soltaria a frase - 'Só não dou um AWP Headshot porque não tem acarajé pelo caminho!'?",
+    answers: [
+      { text: "Jett", correct: false },
+      { text: "Viper", correct: false },
+      { text: "Phoenix", correct: false },
+      { text: "Raze", correct: true },
+    ],
+  },
+  {
+    question: "VALORANT: Qual é o nome verdadeiro da agente VIPER?",
+    answers: [
+      { text: "Sabine Callas", correct: false },
+      { text: "Valentina Pereira", correct: true },
+      { text: "Vanessa Palmer", correct: false },
+      { text: "Larissa Petrov", correct: false },
+    ],
+  },
 ];
 
 let currentQuestion = 0;
