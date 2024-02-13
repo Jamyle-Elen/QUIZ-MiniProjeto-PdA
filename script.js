@@ -239,7 +239,6 @@ function submitName() {
 function startQuiz() {
   shuffleQuestions();
   showQuestions();
-  playAudio();
 }
 
 function startGame(){
