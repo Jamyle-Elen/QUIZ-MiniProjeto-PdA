@@ -7,6 +7,8 @@
 <p>Esse projeto trata-se de um Quiz sobre curiosidades do mundo dos games, trazendo interatividade ao jogador do Quiz</P>
 
 
+> 🔗 **[Ver Projeto](https://quiz-mini-projeto-pd-a.vercel.app)**
+
 <div align='center'>
 <br>
 <em>Versão Desktop 1440px</em><br>
@@ -16,6 +18,11 @@
  <img alt="Img Mobile" height="30%" width="30%" src="https://github.com/Jamyle-Elen/QUIZ-MiniProjeto-PdA/assets/110051309/eeffc978-37d2-4512-9acc-2c499f20f388">
   
 </div>
+
+* Responsividade ✓
+* Organização ✓
+* Limpeza de pastas ✓
+<br>
 
 <h1>Tecnologias Utilizadas 💻</h1>
 
