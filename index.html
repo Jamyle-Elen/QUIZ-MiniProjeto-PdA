@@ -14,6 +14,7 @@
 <body>
     <div class="game quiz-animacao">
         <h1>QUIZ</h1>
+        <button id="startButton" onclick="startGame()">Iniciar Jogo</button>
         <div class="quiz">
             <h2 id="pergunta">Lorem ipsum dolor sit amet</h2>
             <div class="respostas">
@@ -33,6 +34,7 @@
                     <input type="text" id="playerNameInput" />
                     <button onclick="submitName()">Enviar</button>
                 </div>
+
             </div>
 
             <div id="ganhadores-container"></div>
@@ -42,7 +44,7 @@
 
             <div id="music">
                 <audio id="audioPlayer" src="./audio/yjwJIjNuniQ_128 (mp3cut.net).mp3" type="audio/mp3"
-                    preload="metadata" autoplay="auto" loop="auto"></audio>
+                    preload="metadata" loop="auto"></audio>
             </div>
             <script src="script.js"></script>
 </body>

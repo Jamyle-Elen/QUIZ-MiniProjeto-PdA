@@ -194,6 +194,10 @@ body::before {
   position: relative;
 }
 
+.quiz{
+  display: none;
+}
+
 .close {
   position: absolute;
   top: 0;

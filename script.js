@@ -242,20 +242,16 @@ function startQuiz() {
   playAudio();
 }
 
-function playAudio() {
-  var audio = document.getElementById("audioPlayer");
-  if (audio) {
-    document.addEventListener("click", function playAudioOnInteraction() {
-      audio.play().catch(function (error) {
-        console.error("Reprodução automática bloqueada: ", error);
-      });
-
-      document.removeEventListener("click", playAudioOnInteraction);
-    });
-  } else {
-    console.error("Elemento de áudio não encontrado.");
-  }
+function startGame(){
+  const quizElement = document.querySelector(".quiz");
+  const startButton = document.getElementById("startButton");
+  const audio = document.getElementById("audioPlayer");
+  quizElement.style.display = "block";
+  startButton.style.display = "none";
+  audio.play();
 }
+
+
 
 function shuffleQuestions() {
   for (let i = questions.length - 1; i > 0; i--) {
