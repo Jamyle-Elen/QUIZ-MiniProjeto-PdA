@@ -203,8 +203,8 @@ const questions = [
   {
     question: "VALORANT: Qual é o nome verdadeiro da agente VIPER?",
     answers: [
-      { text: "Sabine Callas", correct: false },
-      { text: "Valentina Pereira", correct: true },
+      { text: "Sabine Callas", correct: true },
+      { text: "Valentina Pereira", correct: false },
       { text: "Vanessa Palmer", correct: false },
       { text: "Larissa Petrov", correct: false },
     ],
