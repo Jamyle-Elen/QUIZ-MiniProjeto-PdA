@@ -1,6 +1,6 @@
 <h1>MiniProjeto - QUIZ</h1>
  
- > Status do Projeto: Em desenvolvimento ⚠️
+ > Status do Projeto: Concluido ✅
 
 ### Projeto final desenvolvido com propósito avaliativo para o Módulo 1 (M1) do curso Programadores do Amanhã - PdA
 
