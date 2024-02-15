@@ -209,8 +209,25 @@ const questions = [
       { text: "Larissa Petrov", correct: false },
     ],
   },
+  {
+    question: "Street Fighther: Em que ano o primeiro street fighter foi lançado?",
+    answers: [
+      { text: "1987", correct: true },
+      { text: "1990", correct: false },
+      { text: "2000", correct: false },
+      { text: "2010", correct: false },
+    ],
+  },
+  {
+    question: "Fortinite: Qual desses eventos colaborativos com outras franquias não ocorreu em Fortnite?",
+    answers: [
+      { text: "Evento do Batman", correct: false },
+      { text: "Evento do Homem-Aranha", correct: false },
+      { text: "Evento do Star Wars", correct: false },
+      { text: "Evento do Harry Potter", correct: true },
+    ],
+  },
 ];
-
 let currentQuestion = 0;
 const totalQuestionsToShow = 5;
 
