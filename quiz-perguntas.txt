@@ -134,3 +134,10 @@ A) Sabine Callas
 B) Valentina Pereira
 C) Vanessa Palmer
 D) Larissa Petrov
+
+Pergunta: Em que ano o primeiro street fighter foi lançado?
+
+A) 1987
+B) 1990
+C) 2000
+D) 2010
