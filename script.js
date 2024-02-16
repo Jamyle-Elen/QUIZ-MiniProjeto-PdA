@@ -281,8 +281,7 @@ const questions = [
       { text: "356", correct: false },
     ],
   },
-<<<<<<< HEAD
-    {
+  {
     question: "Minecraft: o que acontece se renomear uma ovelha para jeb_?",
     answers: [
       { text: "Nada", correct: false },
@@ -291,7 +290,7 @@ const questions = [
       { text: "Fica mudando de cor", correct: true },
     ],
   },
-    {
+  {
     question: "Minecraft: qual item o sapo come?",
     answers: [
       { text: "Cogumelo", correct: false },
@@ -300,14 +299,15 @@ const questions = [
       { text: "Beterraba", correct: false },
     ],
   },
-    {
+  {
     question: "Minecraft: qual era o antigo nome do jogo?",
     answers: [
       { text: "World Craft", correct: false },
       { text: "Block Game", correct: false },
       { text: "Cave Game", correct: true },
       { text: "Block Craft", correct: false },
-=======
+    ],
+  },
   {
     question: "Stardew Valley: Quem é o ferreiro de stardew valley?",
     answers: [
@@ -315,7 +315,6 @@ const questions = [
       { text: "Pierre", correct: false },
       { text: "Robim", correct: false },
       { text: "Emily", correct: false },
->>>>>>> 010e14094331d863b1250f7c1dd4e4fd36453888
     ],
   },
 ];
@@ -349,7 +348,7 @@ function startQuiz() {
   showQuestions();
 }
 
-function startGame(){
+function startGame() {
   const quizElement = document.querySelector(".quiz");
   const startButton = document.getElementById("startButton");
   const audio = document.getElementById("audioPlayer");
