@@ -281,6 +281,15 @@ const questions = [
       { text: "356", correct: false },
     ],
   },
+  {
+    question: "Stardew Valley: Quem é o ferreiro de stardew valley?",
+    answers: [
+      { text: "Clint", correct: true },
+      { text: "Pierre", correct: false },
+      { text: "Robim", correct: false },
+      { text: "Emily", correct: false },
+    ],
+  },
 ];
 let currentQuestion = 0;
 const totalQuestionsToShow = 5;
