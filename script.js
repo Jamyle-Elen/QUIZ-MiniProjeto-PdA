@@ -236,6 +236,15 @@ const questions = [
       { text: "Arqueiro verde", correct: false },
     ],
   },
+  {
+    question: "Minecraft: qual o mob foi criado acidentalmente pelo Notc?",
+    answers: [
+      { text: "Creeper", correct: true },
+      { text: "Enderman", correct: false },
+      { text: "Esqueleto", correct: false },
+      { text: "Zumbi", correct: false },
+    ],
+  },
 ];
 let currentQuestion = 0;
 const totalQuestionsToShow = 5;
