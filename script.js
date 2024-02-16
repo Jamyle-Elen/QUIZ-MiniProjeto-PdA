@@ -219,7 +219,7 @@ const questions = [
     ],
   },
   {
-    question: "Street Fighther: Qual o personagem de Street Fighter é mais famoso?",
+    question: "Street Fighther: Qual o personagem de Street Fighter é o mais forte?",
     answers: [
       { text: "Chun-Li", correct: false },
       { text: "Ken", correct: false },
@@ -281,6 +281,7 @@ const questions = [
       { text: "356", correct: false },
     ],
   },
+<<<<<<< HEAD
     {
     question: "Minecraft: o que acontece se renomear uma ovelha para jeb_?",
     answers: [
@@ -306,6 +307,15 @@ const questions = [
       { text: "Block Game", correct: false },
       { text: "Cave Game", correct: true },
       { text: "Block Craft", correct: false },
+=======
+  {
+    question: "Stardew Valley: Quem é o ferreiro de stardew valley?",
+    answers: [
+      { text: "Clint", correct: true },
+      { text: "Pierre", correct: false },
+      { text: "Robim", correct: false },
+      { text: "Emily", correct: false },
+>>>>>>> 010e14094331d863b1250f7c1dd4e4fd36453888
     ],
   },
 ];
