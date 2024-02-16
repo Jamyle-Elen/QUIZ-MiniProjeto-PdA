@@ -281,6 +281,33 @@ const questions = [
       { text: "356", correct: false },
     ],
   },
+    {
+    question: "Minecraft: o que acontece se renomear uma ovelha para jeb_?",
+    answers: [
+      { text: "Nada", correct: false },
+      { text: "Começa a te atacar", correct: false },
+      { text: "Fica de ponta a cabeça", correct: false },
+      { text: "Fica mudando de cor", correct: true },
+    ],
+  },
+    {
+    question: "Minecraft: qual item o sapo come?",
+    answers: [
+      { text: "Cogumelo", correct: false },
+      { text: "Vaga-lumes", correct: false },
+      { text: "Bola de Slime", correct: true },
+      { text: "Beterraba", correct: false },
+    ],
+  },
+    {
+    question: "Minecraft: qual era o antigo nome do jogo?",
+    answers: [
+      { text: "World Craft", correct: false },
+      { text: "Block Game", correct: false },
+      { text: "Cave Game", correct: true },
+      { text: "Block Craft", correct: false },
+    ],
+  },
 ];
 let currentQuestion = 0;
 const totalQuestionsToShow = 5;
