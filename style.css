@@ -12,12 +12,16 @@
 
 :root {
   --bg-color: rgb(145, 148, 146);
-  --cart-color: #fff;
+  --cart-color: #fffffff0;
   --text-color: #222;
   --error-color: #ff4d4d;
   --correct-color: #4CAF50;
   --button-hover: #483a4e;
   --button-reset: #39363a;
+}
+
+#startButton{
+  background-color: #1e7fff;
 }
 
 body::before {
@@ -27,7 +31,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(imagens/bg.webp);
+  background-image: url(imagens/214388.gif);
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;

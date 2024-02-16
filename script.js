@@ -219,7 +219,7 @@ const questions = [
     ],
   },
   {
-    question: "Street Fighther: Qual o personagem de Street Fighter é mais famoso?",
+    question: "Street Fighther: Qual o personagem de Street Fighter é o mais forte?",
     answers: [
       { text: "Chun-Li", correct: false },
       { text: "Ken", correct: false },
