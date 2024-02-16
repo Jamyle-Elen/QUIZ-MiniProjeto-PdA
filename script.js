@@ -219,12 +219,12 @@ const questions = [
     ],
   },
   {
-    question: "Fortinite: Qual desses eventos colaborativos com outras franquias não ocorreu em Fortnite?",
+    question: "Street Fighther: Qual o personagem de Street Fighter é mais famoso?",
     answers: [
-      { text: "Evento do Batman", correct: false },
-      { text: "Evento do Homem-Aranha", correct: false },
-      { text: "Evento do Star Wars", correct: false },
-      { text: "Evento do Harry Potter", correct: true },
+      { text: "Chun-Li", correct: false },
+      { text: "Ken", correct: false },
+      { text: "Ryu", correct: false },
+      { text: "Akuma", correct: true },
     ],
   },
 ];
