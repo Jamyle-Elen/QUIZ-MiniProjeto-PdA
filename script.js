@@ -237,12 +237,48 @@ const questions = [
     ],
   },
   {
-    question: "Minecraft: qual o mob foi criado acidentalmente pelo Notc?",
+    question: "Minecraft: qual o mob foi criado acidentalmente pelo Notch?",
     answers: [
       { text: "Creeper", correct: true },
       { text: "Enderman", correct: false },
       { text: "Esqueleto", correct: false },
       { text: "Zumbi", correct: false },
+    ],
+  },
+  {
+    question: "Minecraft: em qual ano o jogo foi lançado?",
+    answers: [
+      { text: "2010", correct: false },
+      { text: "2009", correct: true },
+      { text: "2011", correct: false },
+      { text: "2012", correct: false },
+    ],
+  },
+  {
+    question: "Minecraft: em qual versão a End City foi adicionada?",
+    answers: [
+      { text: "1.9.1", correct: false },
+      { text: "1.12.1", correct: false },
+      { text: "1.9", correct: true },
+      { text: "1.7", correct: false },
+    ],
+  },
+  {
+    question: "Minecraft: qual a maior lenda do jogo?",
+    answers: [
+      { text: "Lick", correct: false },
+      { text: "Entity303", correct: false },
+      { text: "Herobrine", correct: true },
+      { text: "Notch", correct: false },
+    ],
+  },
+  {
+    question: "Minecraft: qual a maior força que um efeito pode ter em comandos?",
+    answers: [
+      { text: "355", correct: false },
+      { text: "255", correct: true },
+      { text: "256", correct: false },
+      { text: "356", correct: false },
     ],
   },
 ];
