@@ -40,7 +40,7 @@ const questions = [
   },
   {
     question:
-      "CS: Qual arma é conhecida por ser a 'One Shot Kill' na cabeça, independentemente da distância?",
+      "CS:GO: Qual arma é conhecida por ser a 'One Shot Kill' na cabeça, independentemente da distância?",
     answers: [
       { text: "AK-47", correct: false },
       { text: "AWP", correct: true },
@@ -59,7 +59,7 @@ const questions = [
     ],
   },
   {
-    question: "Em Counter-Strike e Valorant, o que significa 'eco round'?",
+    question: "CS:GO & Valorant: Em Counter-Strike e Valorant, o que significa 'eco round'?",
     answers: [
       { text: "Comprar armas mais poderosas", correct: false },
       { text: "Economizar dinheiro para rodadas futuras", correct: true },
@@ -79,7 +79,7 @@ const questions = [
   },
   {
     question:
-      "JOGOS EVO: Qual jogo de luta é tradicionalmente considerado o mais técnico e estratégico nos torneios EVO?",
+      "Jogos de luta: Qual jogo de luta é tradicionalmente considerado o mais técnico e estratégico nos torneios EVO?",
     answers: [
       { text: "Street Fighter", correct: false },
       { text: "Super Smash Bros", correct: false },
@@ -88,7 +88,7 @@ const questions = [
     ],
   },
   {
-    question: "Qual a engine que o jogo fortnite usa?",
+    question: "Fortnite: Qual a engine que o jogo fortnite usa?",
     answers: [
       { text: "Unity", correct: false },
       { text: "Unreal Engine 5", correct: true },
@@ -97,7 +97,7 @@ const questions = [
     ],
   },
   {
-    question: "Em que ano fortnite foi lançado?",
+    question: "Fortnite: Em que ano fortnite foi lançado?",
     answers: [
       { text: "2019", correct: false },
       { text: "2016", correct: false },
@@ -106,7 +106,7 @@ const questions = [
     ],
   },
   {
-    question: "Qual a skin mais famosa do Fortnite?",
+    question: "Fortnite: Qual a skin mais famosa do Fortnite?",
     answers: [
       { text: "Baby Yoda", correct: false },
       { text: "Raven", correct: true },
@@ -115,7 +115,7 @@ const questions = [
     ],
   },
   {
-    question: "Qual desses campeões não é um yordle?",
+    question: "League of legends: Qual desses campeões não é um yordle?",
     answers: [
       { text: "Gnar", correct: false },
       { text: "Poppy", correct: false },
@@ -124,7 +124,7 @@ const questions = [
     ],
   },
   {
-    question: "Qual é o nome do mapa mais jogado no CS:GO?",
+    question: "CS:GO: Qual é o nome do mapa mais jogado no CS:GO?",
     answers: [
       { text: "Dust II", correct: true },
       { text: "Mirage", correct: false },
@@ -134,7 +134,7 @@ const questions = [
   },
   {
     question:
-      "Em qual período histórico se passa o jogo Assassin's Creed: Odyssey?",
+      "Assassin's Creed: Em qual período histórico se passa o jogo Assassin's Creed: Odyssey?",
     answers: [
       { text: "Renascimento Italiano", correct: false },
       { text: "Idade Média", correct: false },
@@ -143,7 +143,7 @@ const questions = [
     ],
   },
   {
-    question: "Quem é o protagonista em Assassin's Creed: Black Flag?",
+    question: "Assassin's Creed: Quem é o protagonista em Assassin's Creed: Black Flag?",
     answers: [
       { text: "Ezio Auditore", correct: false },
       { text: "Altair Ibn-La'Ahad", correct: false },
@@ -153,7 +153,7 @@ const questions = [
   },
   {
     question:
-      "Qual é a organização que os Assassinos enfrentam em Assassin's Creed?",
+      "Assassin's Creed: Qual é a organização que os Assassinos enfrentam em Assassin's Creed?",
     answers: [
       { text: "Templários", correct: true },
       { text: "Illuminati", correct: false },
@@ -163,7 +163,7 @@ const questions = [
   },
   {
     question:
-      "Qual é a habilidade distintiva de Evie Frye em Assassin's Creed: Syndicate?",
+      "Assassin's Creed: Qual é a habilidade distintiva de Evie Frye em Assassin's Creed: Syndicate?",
     answers: [
       { text: "Visão de Águia", correct: false },
       { text: "Teletransporte", correct: false },
@@ -172,7 +172,7 @@ const questions = [
     ],
   },
   {
-    question: "Quem é o protagonista em Assassin's Creed III?",
+    question: "Assassin's Creed Quem é o protagonista em Assassin's Creed III?",
     answers: [
       { text: "Ezio Auditore", correct: false },
       { text: "Edward Kenway", correct: false },
@@ -182,7 +182,7 @@ const questions = [
   },
   {
     question:
-      "Em que cidade se passa a maior parte de Assassin's Creed: Revelations?",
+      "Assassin's Creed: Em que cidade se passa a maior parte de Assassin's Creed: Revelations?",
     answers: [
       { text: "Constantinopla", correct: true },
       { text: "Atenas", correct: false },
@@ -192,7 +192,7 @@ const questions = [
   },
   {
     question:
-      "Qual agente do Valorant soltaria a frase - 'Só não dou um AWP Headshot porque não tem acarajé pelo caminho!'?",
+      "Valorant: Qual agente do Valorant soltaria a frase - 'Só não dou um AWP Headshot porque não tem acarajé pelo caminho!'?",
     answers: [
       { text: "Jett", correct: false },
       { text: "Viper", correct: false },
@@ -225,6 +225,15 @@ const questions = [
       { text: "Ken", correct: false },
       { text: "Ryu", correct: false },
       { text: "Akuma", correct: true },
+    ],
+  },
+  {
+    question: "Injustice: qual o personagem mais escolhido do Injustice?",
+    answers: [
+      { text: "Adão negro", correct: true },
+      { text: "Batman", correct: false },
+      { text: "Arlequina", correct: false },
+      { text: "Arqueiro verde", correct: false },
     ],
   },
 ];
