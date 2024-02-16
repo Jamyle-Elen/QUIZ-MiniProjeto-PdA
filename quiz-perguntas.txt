@@ -193,7 +193,14 @@ D) Evento do Harry Potter
 
 Pergunta: Em que ano o primeiro street fighter foi lançado?
 
-A) 1987
+A) 1987 (Resposta certa)
 B) 1990
 C) 2000
 D) 2010
+
+Pergunta: Quem é o ferreiro de stardew valley?
+
+A) Clint (Resposta certa)
+B) Pierre
+C) Robim
+D) Emily
