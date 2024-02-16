@@ -12,11 +12,11 @@
 <div align='center'>
 <br>
 <em>Versão Desktop 1440px</em><br>
- <img alt="Img Desktop" height="80%" width="80%" src="https://github.com/Jamyle-Elen/QUIZ-MiniProjeto-PdA/assets/110051309/5923de74-e502-4b83-be8b-9ad606320ec1">
+ <img alt="Img Desktop" height="80%" width="80%" src="https://github.com/Jamyle-Elen/QUIZ-MiniProjeto-PdA/assets/110051309/d4944263-13ad-40cf-bbf9-69720402f482">
 
  <br><em>Versão Mobile 375px</em><br>
- <img alt="Img Mobile" height="30%" width="30%" src="https://github.com/Jamyle-Elen/QUIZ-MiniProjeto-PdA/assets/110051309/eeffc978-37d2-4512-9acc-2c499f20f388">
-  
+ <img alt="Img Mobile" height="30%" width="30%" src="https://github.com/Jamyle-Elen/QUIZ-MiniProjeto-PdA/assets/110051309/669ce2fe-49b6-4396-b76b-f6d9a32eaa08">
+
 </div>
 
 * Responsividade ✓
